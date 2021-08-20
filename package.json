@@ -18,11 +18,14 @@
 		"winston": "^3.3.3"
 	},
 	"name": "mei-logger",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "zkldi's prefered defaults for the Winston Logger",
 	"main": "js/main.js",
+
 	"scripts": {
-		"test": "tap"
+		"test": "tap",
+		"build": "tsc",
+		"prepublish": "tsc"
 	},
 	"repository": {
 		"type": "git",
