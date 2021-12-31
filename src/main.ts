@@ -84,6 +84,8 @@ export function CreateLogger(
 				}, expected any of ${LOG_LEVELS.join(", ")}`
 			);
 		}
+
+		logLevel = process.env.LOG_LEVEL;
 	}
 
 	const meiPrintf = format.printf(
